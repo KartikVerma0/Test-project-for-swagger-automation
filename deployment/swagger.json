@@ -96,6 +96,27 @@
             }
           }
         }
+      },
+      "put": {
+        "summary": "Put status",
+        "description": "Put status.",
+        "responses": {
+          "200": {
+            "description": "All good",
+            "content": {
+              "application/json": {
+                "example": {
+                  "example": [
+                    {
+                      "status": "ok",
+                      "method": "PUT"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
       }
     }
   }
