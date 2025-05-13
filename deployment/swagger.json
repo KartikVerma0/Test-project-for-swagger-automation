@@ -34,9 +34,9 @@
           }
         }
       },
-      "delete": {
-        "summary": "delete status",
-        "description": "delete status.",
+      "patch": {
+        "summary": "Patch status",
+        "description": "Patch status.",
         "responses": {
           "200": {
             "description": "All good",
@@ -46,7 +46,7 @@
                   "example": [
                     {
                       "status": "ok",
-                      "method": "DELETE"
+                      "method": "Patch"
                     }
                   ]
                 }
